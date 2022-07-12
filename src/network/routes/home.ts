@@ -7,6 +7,7 @@ const Home = Router()
 Home.route('').get((req: Request, res: Response) => {
   response({
     error: false,
+    server: 'Backend 02',
     message: 'Welcome Backend 02',
     method: 'Home',
     res,
